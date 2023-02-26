@@ -68,7 +68,7 @@ public class Baseclass {
 		   //driver.close();
 	   }
 	   @AfterSuite
-	   public void dbDisconnect() throws SQLException
+	   public void dbDisconnect()
 	   {
 		  
 		   System.out.println("database connection closed");

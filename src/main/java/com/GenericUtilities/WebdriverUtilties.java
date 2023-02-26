@@ -37,16 +37,6 @@ public class WebdriverUtilties {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.urlContains(partialPageURL));
 	}
-	/**
-	 * This method is used to take screenshot
-	 * @param driver
-	 * @return
-	 */
-	public String screenShot(WebDriver driver) {
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		String path = ts.getScreenshotAs(OutputType.BASE64);
-		return path;
-	}
 	
 	public void ScrollToParticularElement(WebDriver driver , WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;

@@ -20,7 +20,7 @@ import com.ObjectRepo.Wikipedia;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Compare extends Baseclass{
+public class CompareTest extends Baseclass{
 	@Test
 	public void movieDataComparisonTest()
 	{
