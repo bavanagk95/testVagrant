@@ -23,16 +23,7 @@ public class Wiki extends Baseclass{
 	@Test
 	
 	public ArrayList<String> wikipedia() throws Throwable {
-		/*WebDriverManager.chromedriver().setup();
-		WebDriver driver=new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://en.wikipedia.org/wiki/Pushpa:_The_Rise");
-		WebElement date = driver.findElement(By.xpath("//th[text()='Pushpa: The Rise – Part 01']/../following-sibling::tr/th/div[text()='Release date']/../following-sibling::td[@class='infobox-data']/div/ul/li"));
-		WebElement con = driver.findElement(By.xpath("//th[text()='Pushpa: The Rise – Part 01']/../following-sibling::tr/th[text()='Country']/following-sibling::td"));
-		String rdate = date.getText();
-		String country = con.getText();
-		System.out.println("release date="+rdate);
-	    System.out.println("country="+country);*/
+		
 		
 		WebdriverUtilties wb=new WebdriverUtilties();
 		FileUtilies fu=new FileUtilies();
