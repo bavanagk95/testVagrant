@@ -25,7 +25,7 @@ public class Baseclass {
 	public   FileUtilies fu=new FileUtilies();
 	  
 	   @BeforeSuite
-       public void dbConnect() {
+       public void dbConnect() throws SQLException{
 	
 		 System.out.println("database connected");
 	   }

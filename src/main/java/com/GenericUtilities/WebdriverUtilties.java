@@ -30,7 +30,7 @@ public class WebdriverUtilties {
 	}
 	/**
 	 * *   it's an Explicitly wait Always wait for Page to be loaded & available in GUI
-	*
+	
 	 * @param partailPageURL
 	 */
 	public void wait(WebDriver driver , String partialPageURL) {
