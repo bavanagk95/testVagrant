@@ -6,7 +6,7 @@ import java.util.Properties;
 public class FileUtilies {
 	/**
 	 *    its used return the value from the property file based on key
-	
+	*
 	 */
 public String getPropertyKeyValue(String key) throws Throwable {
 		

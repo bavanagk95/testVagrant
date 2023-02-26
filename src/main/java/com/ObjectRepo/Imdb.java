@@ -16,7 +16,7 @@ public class Imdb {
 	  }
 	  
 	
-//locaters
+
 	@FindBy(xpath = "//a[text()='Release date']/following-sibling::div[@class='ipc-metadata-list-item__content-container']")
 	  private WebElement date ;
 	  
