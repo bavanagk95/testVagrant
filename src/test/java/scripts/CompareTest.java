@@ -63,7 +63,7 @@ public class CompareTest extends Baseclass{
 		String wikiDate = wiki.getDate().getText();
 		System.out.println(wikiDate);
 		
-		//Validation
+		//asserting
 		Assert.assertEquals(imdbCountry, wikiCountry);
 		Assert.assertEquals(imdbDate, wikiDate);
 		
