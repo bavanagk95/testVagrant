@@ -19,6 +19,7 @@ public class Baseclass {
 	public WebDriver driver;
 	
 	
+	
 	public   WebdriverUtilties wb=new WebdriverUtilties();
 	
 	public   FileUtilies fu=new FileUtilies();

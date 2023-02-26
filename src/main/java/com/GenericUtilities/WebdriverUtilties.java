@@ -1,9 +1,13 @@
 package com.GenericUtilities;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -32,6 +36,23 @@ public class WebdriverUtilties {
 	public void wait(WebDriver driver , String partialPageURL) {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.urlContains(partialPageURL));
+	}
+	/**
+	 * This method is used to take screenshot
+	 * @param driver
+	 * @return
+	 */
+	public String screenShot(WebDriver driver) {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		String path = ts.getScreenshotAs(OutputType.BASE64);
+		return path;
+	}
+	
+	public void ScrollToParticularElement(WebDriver driver , WebElement ele) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		int x = ele.getLocation().getX();
+		int y = ele.getLocation().getY();
+		js.executeScript("window.scrollBy("+x+","+y+")");
 	}
 
 }
