@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.Compare">
+      <class name="scripts.CompareTest">
         <methods>
           <include name="dbDisconnect"/>
           <include name="loginToApp"/>
@@ -13,7 +13,7 @@
           <include name="movieDataComparisonTest"/>
           <include name="dbConnect"/>
         </methods>
-      </class> <!-- scripts.Compare -->
+      </class> <!-- scripts.CompareTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\manoj\AppData\Local\Temp\testng-eclipse--1647706212\testng-customsuite.xml</span>
+                    <span>C:\Users\manoj\AppData\Local\Temp\testng-eclipse--858897111\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="scripts.Compare" class="method navigator-link" hash-for-method="movieDataComparisonTest">movieDataComparisonTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="scripts.CompareTest" class="method navigator-link" hash-for-method="movieDataComparisonTest">movieDataComparisonTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,7 +122,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">scripts.Compare</span>
+              <span class="class-name">scripts.CompareTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -137,7 +137,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at scripts.Compare.movieDataComparisonTest(Compare.java:68)
+	at scripts.CompareTest.movieDataComparisonTest(CompareTest.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,7 +175,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\manoj\AppData\Local\Temp\testng-eclipse--1647706212\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\manoj\AppData\Local\Temp\testng-eclipse--858897111\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,7 +184,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;scripts.Compare&quot;/&gt;
+      &lt;class name=&quot;scripts.CompareTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -227,13 +227,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'movieDataComparisonTest')
-data.setCell(0, 2, 'scripts.Compare')
-data.setCell(0, 3, 38948);
+data.setCell(0, 2, 'scripts.CompareTest')
+data.setCell(0, 3, 19028);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -259,36 +259,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.Compare</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scripts.CompareTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">dbConnect</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">browserLaunch</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">52 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">loginToApp</span>
-                <span class="method-start">3710 ms</span>
+                <span class="method-start">5572 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">movieDataComparisonTest</span>
-                <span class="method-start">3712 ms</span>
+                <span class="method-start">5574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logoutToApp</span>
-                <span class="method-start">42669 ms</span>
+                <span class="method-start">24610 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">42672 ms</span>
+                <span class="method-start">24613 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">dbDisconnect</span>
-                <span class="method-start">42730 ms</span>
+                <span class="method-start">24686 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

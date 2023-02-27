@@ -24,7 +24,7 @@ public class CompareTest extends Baseclass{
 	@Test
 	public void movieDataComparisonTest()
 	{
-		//Navigate to imdb portal
+		//Navigate to imdb 
 		try {
 			String imdbUrl = fu.getPropertyKeyValue("imdburl");
 			driver.get(imdbUrl);

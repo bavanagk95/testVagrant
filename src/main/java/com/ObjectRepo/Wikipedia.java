@@ -14,7 +14,7 @@ public class Wikipedia extends Baseclass {
 		
 		PageFactory.initElements(driver, this);
 	}
-	//
+	
 	@FindBy(xpath = "//div[text()='Release date']/../following-sibling::td[@class='infobox-data']/div/ul/li")
 	private WebElement date;
 	
